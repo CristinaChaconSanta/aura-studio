@@ -1,0 +1,16 @@
+{
+  "name": "aura-studio",
+  "owner": {
+    "name": "Cristina Chacon Santa",
+    "url": "https://github.com/CristinaChaconSanta"
+  },
+  "plugins": [
+    {
+      "name": "aura-studio",
+      "source": "./plugins/aura-studio",
+      "description": "Analiza el rendimiento orgánico de tu cuenta de Instagram Business o Creator con la metodología de las 3 Preguntas y benchmarks semáforo (🔴/🟡/🟢) para LATAM.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/CristinaChaconSanta/aura-studio"
+    }
+  ]
+}
