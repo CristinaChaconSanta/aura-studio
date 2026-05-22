@@ -1,10 +1,15 @@
 .env
-*.json
 ig_api.log
+__pycache__/
+*.pyc
+
+# Archivos generados por la API (datos sensibles)
 token_info.json
 account_info.json
 media_list.json
 insights.json
 stories.json
-__pycache__/
-*.pyc
+
+# Excepción: archivos de configuración del plugin (deben subirse a GitHub)
+!.claude-plugin/marketplace.json
+!.claude-plugin/plugin.json
