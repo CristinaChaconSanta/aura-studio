@@ -1,0 +1,10 @@
+.env
+*.json
+ig_api.log
+token_info.json
+account_info.json
+media_list.json
+insights.json
+stories.json
+__pycache__/
+*.pyc
