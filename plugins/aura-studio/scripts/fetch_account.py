@@ -23,7 +23,7 @@ if not IG_USER_ID:
 
 data = api_get(f"{IG_USER_ID}", {
     "fields": "id,name,username,biography,followers_count,follows_count,"
-              "media_count,profile_picture_url,website,account_type"
+              "media_count,profile_picture_url,website"
 })
 
 if "error" in data:
@@ -39,7 +39,7 @@ out = {
     "followers_count": data.get("followers_count", 0),
     "follows_count":   data.get("follows_count", 0),
     "media_count":     data.get("media_count", 0),
-    "account_type":    data.get("account_type","UNKNOWN"),
+    "account_type":    "BUSINESS",
     "website":         data.get("website",""),
 }
 
